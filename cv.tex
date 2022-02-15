@@ -1,0 +1,150 @@
+\documentclass[letterpaper]{article}
+
+\usepackage{hyperref}
+\usepackage{geometry}
+
+\usepackage[T1]{fontenc}
+\usepackage[sc,osf]{mathpazo}
+
+\def\name{Oliver Broadrick}
+
+\def\footerlink{oliverbroadrik.com}
+
+% The following metadata will show up in the PDF properties
+\hypersetup{
+  colorlinks = true,
+  urlcolor = black,
+  pdfauthor = {\name},
+  pdfkeywords = {economics, statistics, mathematics},
+  pdftitle = {\name: Curriculum Vitae},
+  pdfsubject = {Curriculum Vitae},
+  pdfpagemode = UseNone
+}
+
+\geometry{
+  body={6.5in, 8.5in},
+  left=1.0in,
+  top=1.25in
+}
+
+% Customize page headers
+\pagestyle{myheadings}
+\markright{\name}
+\thispagestyle{empty}
+
+% Custom section fonts
+\usepackage{sectsty}
+\sectionfont{\rmfamily\mdseries\Large}
+\subsectionfont{\rmfamily\mdseries\itshape\large}
+
+% Don't indent paragraphs.
+\setlength\parindent{0em}
+
+% Make lists without bullets
+\renewenvironment{itemize}{
+  \begin{list}{}{
+    \setlength{\leftmargin}{1.5em}
+  }
+}{
+  \end{list}
+}
+
+\begin{document}
+
+% Place name at left
+{\huge \name}
+
+\vspace{0.25in}
+
+\begin{minipage}{0.45\linewidth}
+  \begin{tabular}{ll}
+    Homepage: & \href{https://oliverbroadrick.com/}{\tt https://oliverbroadrick.com/} \\
+    Email: & \href{mailto:odbroadrick@gmail.com}{\tt odbroadrick@gmail.com} \\
+    Phone: & 207 351 5208 \\
+    Address: & 2207 K St NW \#1, Washington DC 20037
+  \end{tabular}
+\end{minipage}
+
+
+\section*{Education}
+
+\begin{itemize}
+
+\item B.S., The George Washington University, 2018-Present.
+\begin{itemize}
+  \item Major in Computer Science
+  \item Major in Mathematics
+  \item GPA: 3.77
+%  \item Division 1 Varsity Rower, achieving top finish in GWMR program history
+\end{itemize}
+
+\end{itemize}
+
+
+\section*{Research Experience}
+
+\subsection*{Statistical Election Audits (2020-Present)}
+Worked with \href{https://www2.seas.gwu.edu/~poorvi/}{Professor Poorvi Vora} and 
+\href{https://zagorski.im.pwr.wroc.pl/}{Professor Filip Zag\`{o}rski} on post-election
+Risk-Limiting Audits (RLAs). An RLA guarantees with known probability that incorrectly
+announced election results will be detected and corrected.
+I have developed novel mathematical methods for ballot-polling audits and stratified audits, 
+and I have written a significant portion of the open-source audit software library 
+\href{https://github.com/gwexploratoryaudits/r2b2}{r2b2}.
+
+\subsection*{Hotel Image Recognition (2021-Present)}
+Images taken in hotel rooms appear in human trafficking investigations. 
+Recent work by \href{https://www2.seas.gwu.edu/~pless/}{Professor Pless} and others
+produced a database of over a million hotel room images
+and a recognition search tool used by the National Center for Missing an Exploited Children.
+With Professor Pless and three peers, I am working
+on asearch utility that uses key points for recognition when query images have high occlusion.
+
+\subsection*{Imprecise Scheduling (2021-Present)}
+Working with \href{https://www2.seas.gwu.edu/~narahari/}{Professor Bhagi Narahari} to 
+develop novel scheduling algorithm for neural network tasks using an imprecise computation
+model. Progress is partially reflected in 
+\href{https://github.com/obroadrick/imprecise}{software repository}.
+
+\section*{Teaching Experience}
+\subsection*{Undergraduate Teaching Assistant}
+Taught weekly discussion section, assisted in lectures, hosted office hours.
+\begin{itemize}
+\item
+Foundations of Computing, Spring 2022
+\item
+Discrete Structures II, Fall 2021
+\end{itemize}
+\subsection*{Learning Assistant}
+Assisted in lectures and discussions, recorded supplemental lectures, hosted office hours.
+\begin{itemize}
+\item
+Foundations of Computing, Spring 2021
+\item
+Discrete Structures II, Fall 2020
+\item
+Discrete Structures I, Spring 2020
+\end{itemize}
+\subsection*{Tutor}
+Tutored high school students one-on-one in high school mathematics, physics, and computer science for DC company \href{https://www.tungstenprep.com/}{Tungsten Prep}.
+
+\section*{Honors and Awards}
+
+\begin{itemize}
+\item 2020, Summer Undergraduate Program in Engineering Research (SUPER)
+\item 2021, Summer Undergraduate Program in Engineering Research (SUPER)
+\item 2022-Present, Member, Pi Mu Epsilon Mathematics Honorary Society
+\end{itemize}
+
+
+\section*{Peer Reviewed Publications}
+
+\begin{enumerate}
+
+\item Oliver Broadrick, Sarah Morin, Grant McClearn, Neal McBurnett, Poorvi L. Vora and Filip Zag\`{o}rski, "Simulations of Ballot Polling Risk-Limiting Audits". Seventh Workshop on Advances in Secure Electronic Voting, in association with Financial Cryptography 2022.
+
+\end{enumerate}
+
+\bigskip
+
+\end{document}
