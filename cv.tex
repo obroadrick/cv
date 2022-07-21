@@ -2,6 +2,8 @@
 
 \usepackage{hyperref}
 \usepackage{geometry}
+\usepackage{xspace}
+\newcommand{\Providence}{\textsc{Providence}\xspace}
 
 \usepackage[T1]{fontenc}
 \usepackage[sc,osf]{mathpazo}
@@ -59,7 +61,7 @@
     Website: & \href{https://oliverbroadrick.com/}{\tt oliverbroadrick.com} \\
     Email: & \href{mailto:odbroadrick@gmail.com}{\tt odbroadrick@gmail.com} \\
     Phone: & 207 351 5208 \\
-    Address: & 2207 K St NW \#1, Washington DC 20037
+    Address: & 2400 M St NW Apt 516, Washington DC 20037
   \end{tabular}
 \end{minipage}
 
@@ -68,102 +70,90 @@
 
 \begin{itemize}
 
-\item B.S., The George Washington University, 2018-Present.
-\begin{itemize}
-  \item Major in Computer Science, Major in Mathematics, $3.77$ GPA
-  \item Competed at the Division 1 level for GW Men's Rowing, achieving highest national ranking (7th) in program history.
-  \item Accepted admission offer for M.S. in Computer Science with expected graduation May 2023.
-\end{itemize}
+\item 2023 (expected) M.S. Computer Science ($4.00$ GPA)\hfill The George Washington University
+\item 2022 B.S. Computer Science and Mathematics ($3.77$ GPA)\hfill The George Washington University
+    \subitem 4-year rower for GW Men's Rowing achieving top ten national finishes (team's highest ever)
+%\subitem Rowed for Division 1 GW Men's Rowing, achieving highest ever team ranking (7th) and then winning national club championship when restrained to a club program.
 
 \end{itemize}
 
 
 \section*{Research Experience}
 
-\subsection*{Statistical Election Audits (2020-Present)}
-Worked with \href{https://www2.seas.gwu.edu/~poorvi/}{Professor Poorvi Vora} and 
-\href{https://zagorski.im.pwr.wroc.pl/}{Professor Filip Zag\`{o}rski} on post-election
-Risk-Limiting Audits (RLAs). An RLA uses a random sample of paper ballots to
-guarantee with known probability 
-%that incorrectly announced election results will be detected and corrected.
-that election outcomes incorrectly announced by ballot tallying machines will be 
-detected and corrected.
-I have developed novel mathematical methods for ballot-polling RLAs and stratified RLAs, 
-and I have written a significant portion of the open-source audit software library 
-\href{https://github.com/gwexploratoryaudits/r2b2}{r2b2}.
+Keen to explore applications of mathematical thinking, I've done research in security, systems, and computer vision. 
+%I love finding mathematical insight in interesting applications.
 
-\subsection*{Hotel Recognition (2021-Present)}
-With \href{https://www2.seas.gwu.edu/~pless/}{Professor Robert Pless} and three peers, I am working
-on a search utility that uses image key points to improve on existing hotel recognition methods,
-especially for query images with high occlusion.
-An existing search utility is used by the National Center for Missing and Exploited Children
-for sex trafficking investigations.
+\subsection*{Single image camera calibration with glitter (2022-present)}
+Camera calibration -- estimation of camera pose and intrinsic properties like focal length -- is a classic problem in computer vision with traditional methods requiring dozens of images for high accuracy. Using the strong geometric constraints provided by sparkling glitter, we are developing single image camera calibration.
 
-\subsection*{Imprecise Scheduling (2021-Present)}
-Working with \href{https://www2.seas.gwu.edu/~narahari/}{Professor Bhagi Narahari} to 
-develop novel scheduling algorithm for neural network tasks using an imprecise computation
-model. Progress is partially reflected in 
-\href{https://github.com/obroadrick/imprecise}{software repository}.
+\subsection*{Post-election statistical audits (2020-present)}
+In a Risk-Limiting Audit (RLA), a random sample of paper ballots and a rigorous statistical test are used to guarantee with known probability that incorrect election results will be detected and corrected.
+Among other work, I have developed \Providence a novel mathematical method for ballot polling RLAs, the most efficient and secure RLA of its kind.
+
+\subsection*{Scheduling for real-time AI at the edge (2021-2022)}
+I designed and analyzed scheduling algorithms with the imprecise computation model for real-time AI tasks at the edge. 
 
 \section*{Teaching Experience}
 \subsection*{Undergraduate Teaching Assistant (2021-Present)}
 Taught weekly discussion section, assisted in lectures, hosted office hours, with consistent, positive feedback from students and high attendance to office hours.
-\begin{itemize}
-\item
+\subitem
 Foundations of Computing, Spring 2022
-\item
+\subitem
 Discrete Structures II, Fall 2021
-\end{itemize}
 \subsection*{Learning Assistant (2020-2021)}
 Assisted in lectures and discussions, recorded supplemental lectures, hosted office hours.
-\begin{itemize}
-\item
+\subitem
 Foundations of Computing, Spring 2021
-\item
+\subitem
 Discrete Structures II, Fall 2020
-\item
+\subitem
 Discrete Structures I, Spring 2020
-\end{itemize}
 \subsection*{Tutor (2016-Present)}
-Tutored dozens of high school and college students for hundreds of hours, one-on-one and in groups, mainly in mathematics, physics, and computer science. 
-\begin{itemize}
-\item 
+Tutored dozens of high school and college students for hundreds of hours, one-on-one and in groups, mainly in mathematics, physics, and computer science, in various settings:
+\subitem 
 GW Navy ROTC Calculus and Physics Tutor (2022-Present)
-\item
+\subitem
 \href{https://www.tungstenprep.com/}{Tungsten Prep} (2018-Present) 
-\item
+\subitem
 \href{https://gwsports.com/sports/2018/7/23/school-bio-academic-support-tutor-info-html.aspx}{GW Athletics Department} (2018-2020) 
-\item 
+\subitem 
 High school peer tutoring program at \href{https://www.berwickacademy.org/}{Berwick Academy} (2016-2018)
-\end{itemize}
-
-%Currently tutoring for DC company \href{https://www.tungstenprep.com/}{Tungsten Prep} (2018-Present). Before that, tutored for the \href{https://gwsports.com/sports/2018/7/23/school-bio-academic-support-tutor-info-html.aspx}{GW Athletics Department} (2018-2020), and originally began tutoring in high school in a peer tutoring program (2016-2018).
 
 \section*{Honors and Awards}
 
 \subsection*{Academic}
 \begin{itemize}
 \item 2022, Member, Pi Mu Epsilon Mathematics Honorary Society
-\item 2021, Dean's List (Spring 2021, Fall 2020, Spring 2020, Fall 2019)
+\item 2019-2022, Dean's List
 \item 2021, Summer Undergraduate Program in Engineering Research (SUPER)
 \item 2020, Summer Undergraduate Program in Engineering Research (SUPER)
 \end{itemize}
-\subsection*{Athletic}
-\begin{itemize}
-\item 2021, Intercollegiate Rowing Coaches Association Scholar-Athlete Award
-\item 2021, Intercollegiate Rowing Association Men's Heavyweight All-Academic Team
-\end{itemize}
+
+%\subsection*{athletic}
+%\begin{itemize}
+%\item 2021, intercollegiate rowing coaches association scholar-athlete award
+%\item 2021, intercollegiate rowing association men's heavyweight all-academic team
+%\end{itemize}
 
 \section*{Publications}
 
-\subsection*{Accepted}
-\begin{enumerate}
-\item Oliver Broadrick, Sarah Morin, Grant McClearn, Neal McBurnett, Poorvi L. Vora and Filip Zag\`{o}rski, \href{https://oliverbroadrick.com/papers/simulations-of-ballot-polling-rlas.pdf}{"Simulations of Ballot Polling Risk-Limiting Audits"}. Seventh Workshop on Advances in Secure Electronic Voting, in association with Financial Cryptography 2022.
-\end{enumerate}
 \subsection*{In Preparation}
 \begin{enumerate}
 \item
 (With Poorvi L. Vora and Filip Zag\`{o}rski) "\textit{Providence}: a flexible round-by-round audit". In preparation.
+\item
+(With Robert Pless and Adellar Irankunda) "Single-image camera calibration with glitter". In Preparation.
+\end{enumerate}
+
+\subsection*{In Review}
+\begin{enumerate}
+\item
+Hesham Fouad, Oliver Broadrick, Benjamin Harvey, Charles Peeke, Bhagirath Narahari, "Real-Time AI: Using AI on the Tactical Edge." In Putting AI in the Critical Loop: Assured Trust and Autonomy in Human-Machine Teams. Elsevier, 2023.
+\end{enumerate}
+
+\subsection*{Accepted}
+\begin{enumerate}
+\item Oliver Broadrick, Sarah Morin, Grant McClearn, Neal McBurnett, Poorvi L. Vora and Filip Zag\`{o}rski, \href{https://oliverbroadrick.com/papers/simulations-of-ballot-polling-rlas.pdf}{"Simulations of Ballot Polling Risk-Limiting Audits"}. Seventh Workshop on Advances in Secure Electronic Voting, in association with Financial Cryptography 2022.
 \end{enumerate}
 
 \bigskip
