@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.5.26)  21 DEC 2022 23:48
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.5.26)  21 FEB 2023 16:52
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -357,15 +357,15 @@ Overfull \hbox (29.90161pt too wide) in paragraph at lines 60--66
 
 {/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 LaTeX Font Info:    Font shape `T1/pplj/m/sl' in size <10> not available
-(Font)              Font shape `T1/pplj/m/it' tried instead on input line 171.
+(Font)              Font shape `T1/pplj/m/it' tried instead on input line 167.
 
 [2] (./cv.aux)
 Package rerunfilecheck Info: File `cv.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 8913 strings out of 478268
- 139638 string characters out of 5846347
+ 8912 strings out of 478268
+ 139627 string characters out of 5846347
  436586 words of memory out of 5000000
  26984 multiletter control sequences out of 15000+600000
  512788 words of font info for 92 fonts, out of 8000000 for 9000
@@ -378,10 +378,10 @@ live/2022/texmf-dist/fonts/type1/public/fpl/fplrc8a.pfb></usr/local/texlive/202
 -dist/fonts/type1/public/cm-super/sftt1000.pfb></usr/local/texlive/2022/texmf-d
 ist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2022/texmf-dist/fon
 ts/type1/urw/palatino/uplri8a.pfb>
-Output written on cv.pdf (2 pages, 101352 bytes).
+Output written on cv.pdf (2 pages, 101046 bytes).
 PDF statistics:
- 75 PDF objects out of 1000 (max. 8388607)
- 60 compressed objects within 1 object stream
- 22 named destinations out of 1000 (max. 500000)
+ 74 PDF objects out of 1000 (max. 8388607)
+ 59 compressed objects within 1 object stream
+ 21 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
