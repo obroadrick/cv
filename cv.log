@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.5.26)  21 FEB 2023 16:53
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.5.26)  27 FEB 2023 14:27
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -357,31 +357,32 @@ Overfull \hbox (29.90161pt too wide) in paragraph at lines 60--66
 
 {/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 LaTeX Font Info:    Font shape `T1/pplj/m/sl' in size <10> not available
-(Font)              Font shape `T1/pplj/m/it' tried instead on input line 167.
+(Font)              Font shape `T1/pplj/m/it' tried instead on input line 161.
 
 [2] (./cv.aux)
 Package rerunfilecheck Info: File `cv.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 8912 strings out of 478268
- 139627 string characters out of 5846347
+ 8916 strings out of 478268
+ 139650 string characters out of 5846347
  436586 words of memory out of 5000000
  26984 multiletter control sequences out of 15000+600000
- 512788 words of font info for 92 fonts, out of 8000000 for 9000
+ 514218 words of font info for 96 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 60i,8n,63p,383b,322s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 60i,8n,63p,383b,320s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/t
 exlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/local/tex
-live/2022/texmf-dist/fonts/type1/public/fpl/fplrc8a.pfb></usr/local/texlive/202
-2/texmf-dist/fonts/type1/public/fpl/fplrij8a.pfb></usr/local/texlive/2022/texmf
--dist/fonts/type1/public/cm-super/sftt1000.pfb></usr/local/texlive/2022/texmf-d
-ist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2022/texmf-dist/fon
-ts/type1/urw/palatino/uplri8a.pfb>
-Output written on cv.pdf (2 pages, 101059 bytes).
+live/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texl
+ive/2022/texmf-dist/fonts/type1/public/fpl/fplrc8a.pfb></usr/local/texlive/2022
+/texmf-dist/fonts/type1/public/fpl/fplrij8a.pfb></usr/local/texlive/2022/texmf-
+dist/fonts/type1/public/cm-super/sftt1000.pfb></usr/local/texlive/2022/texmf-di
+st/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2022/texmf-dist/font
+s/type1/urw/palatino/uplri8a.pfb>
+Output written on cv.pdf (2 pages, 108688 bytes).
 PDF statistics:
- 74 PDF objects out of 1000 (max. 8388607)
- 59 compressed objects within 1 object stream
+ 79 PDF objects out of 1000 (max. 8388607)
+ 62 compressed objects within 1 object stream
  21 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
